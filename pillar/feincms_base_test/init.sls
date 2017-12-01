@@ -5,14 +5,14 @@ feincms_base_test:
         is_opt_apply: True
         is_db_apply: True
         is_webserver_apply: True
-    postgresql:
-        user: feincms_base_test
-        name: feincms_base_test
-        pass: test
     allowed_hosts:
         - 127.0.0.1
         - feincms-base-test.com
         - www.feincms-base-test.com
+    postgresql:
+        user: feincms_base_test
+        name: feincms_base_test
+        pass: test
     nginx:
         server_name:
             - feincms-base-test.com
